@@ -10,7 +10,7 @@ public class Teleport : MonoBehaviour
 
     private void OnEnable()
     {
-        Debug.Log("This is my first changes, changed the screenBounds Value to just a new Vector2");
+        Debug.Log("This is my first change, changed the screenBounds value to just a new Vector2");
         screenBounds = new Vector2(12, 6);
         //For sprites, substitute SpriteRenderer for MeshRenderer
         objectWidth = transform.GetComponent<MeshRenderer>().bounds.size.x / 2;
